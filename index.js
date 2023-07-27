@@ -73,7 +73,7 @@ const getAllTextFiles = (req, res) => {
 
 // For welcome text
 app.get('/', (req, res) => {
-    res.status(200).send("Welcome!! The path for creating text file is 'url/api/createTextFile'. The path for getting all text files is 'url/api/getAllTextFiles'.");
+    res.status(200).send("Welcome!! The path for creating text file is 'http://localhost:4000/api/createTextFile'. The path for getting all text files is 'http://localhost:4000/api/getAllTextFiles'.");
 });
 
 // POST call for creating text file
